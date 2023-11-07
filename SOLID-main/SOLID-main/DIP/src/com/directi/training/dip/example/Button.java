@@ -8,6 +8,7 @@ public class Button
     public Button(Lamp lamp)
     {
         _lamp = lamp;
+        System.out.println("done !");
     }
 
     public void toggle()
